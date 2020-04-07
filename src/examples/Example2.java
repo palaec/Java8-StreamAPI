@@ -11,7 +11,7 @@ import model.Person;
 public class Example2 {
 
 	public static void main(String[] args) {
-		//Get all the Males with name Uppercase (Do not modify the original List)
+		//Get all the names with name Uppercase
 
 		List<Person> personList = SampleData.getPersonData().stream()
 		.filter(p->p.getGender().equals("Male"))
